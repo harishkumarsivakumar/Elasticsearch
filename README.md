@@ -19,3 +19,9 @@ This project demonstrates how to perform basic data analytics operations using E
 1. **Start Elasticsearch Service**:
    ```sh
    sudo service elasticsearch start
+   netstat -an | find "8989"   # for Windows
+lsof -i:8989                # for macOS/Linux
+git clone <your-github-repo-url>
+cd ElasticsearchDataAnalytics
+
+
